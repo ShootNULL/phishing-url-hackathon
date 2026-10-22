@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.DS_Store
+catboost_info/
+
+# данные соревнования не храним в репозитории
+train_*.csv
+test_*.csv
+sample_*.csv
+Архив 3/
+
+# промежуточные результаты пересчитываются, оставляем только предсказания стека для быстрой проверки
+cache/*
+!cache/stack_v2.npz
+
+# промежуточный ответ, который pipeline.py пишет рядом с итоговым
+submission_v1.csv
+submission_replay.csv

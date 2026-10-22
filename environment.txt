@@ -1,0 +1,7 @@
+ОС: macOS 26.5.1
+Процессор: Apple M1 Pro, 8 ядер
+Память: 16 ГБ
+GPU: не нужен (CNN использует Apple MPS, если он есть, иначе CUDA или CPU)
+Python: 3.12.13
+Версии библиотек: requirements.txt
+Сиды: 42
